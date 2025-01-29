@@ -144,6 +144,7 @@ section{
 
 .booking .book-form{
     padding-bottom: 2rem;
+    padding-top: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
     background: var(--white);
@@ -171,12 +172,12 @@ section{
 }
 
 .booking .book-form .flex .inputBox input:focus{
-    background: var(--black);
-    color: var(--white);
+    background: var(--light-bg);
+    color: var(--color10);
 }
 
 .booking .book-form .flex .inputBox input::placeholder{
-    color: var(--light_white);
+    color: var(--color10);
 }
 
 .booking .book-form .flex .inputBox span{
@@ -188,15 +189,50 @@ section{
     margin-top: 2rem;
 }
 
-
-
 .footer{
     background-color: #1E2833;
     background-size: cover;
     background-position: center;
 }
 
+.upper-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; 
+    padding: 10px;
+    border-bottom: .1rem solid var(--light_white);
+  }
+
+  .company-logo img {
+    display: block;
+  }
+
+  .upper-footer h2{
+    margin: 0;
+    color: var(--white);
+    font-size: 2rem;
+  }
+
+  .intro-btn {
+    text-decoration: none;
+    background-color: var(--white);
+    color: var(--black);
+    margin-left: 2rem;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .intro-btn:hover {
+    background-color: var(--color10);
+    color: var(--white);
+  }
+
 .footer .box-container{
+    padding-top: 5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 3rem;
@@ -216,7 +252,7 @@ section{
 }
 
 .footer .box-container .box a i{
-    color:var(--main-color);
+    color:var(--color10);
     padding-right: .5rem;
     transition: .2s linear;
 }
@@ -235,7 +271,7 @@ section{
 }
 
 .footer .credit span{
-    color:var(--main-color);
+    color:var(--color10);
 }
 
 
