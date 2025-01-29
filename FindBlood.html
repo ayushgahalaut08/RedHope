@@ -8,7 +8,7 @@
         <!--swiper css link-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="FindBlood.css">
     </head>
     <body>
         <!--header starts-->
@@ -29,142 +29,75 @@
         </section>
         <!--header ends-->
 
-        <div class="heading" style="background:url(images/header-bg-1.png) no repeat">
-            <h1>Find Blood</h1>
+        <div class="FindBlood">
+            <div class="left-side"></div>
+            <div class="right-side">
+                <form action="FindBloodForm.html" method="post" class="book-form">
+                    <div class="flex">
+                        <h2>Recipient Details</h2>
+                        <div class="inputBox">
+                            <span>Name of the patient</span>
+                            <input type="text" placeholder="Name of the patient" name="name">
+                        </div>
+                        <div class="inputBox">
+                            <span>Phone Number </span>
+                            <input type="number" placeholder="Number" name="phone">
+                        </div>
+                        <div class="inputBox">
+                            <span>E mail </span>
+                            <input type="email" placeholder="Mail ID" name="email">
+                        </div>
+                        <div class="inputBox">
+                            <span>Address </span>
+                            <input type="text" placeholder="Type Here" name="address">
+                        </div>
+                        <div class="inputBox">
+                            <span>Age </span>
+                            <input type="number" placeholder="Age" name="age">
+                        </div>
+                        <div class="inputBox">
+                            <span>Blood Group </span>
+                            <input type="text" placeholder="Blood Group" name="bloodgroup">
+                        </div>
+                        <div class="inputBox">
+                            <span>District </span>
+                            <input type="text" placeholder="Distirct" name="district">
+                        </div>
+                        <div class="inputBox">
+                            <span>State </span>
+                            <input type="text" placeholder="State" name="state">
+                        </div>
+                        <div class="inputBox">
+                            <span>PinCode </span>
+                            <input type="number" placeholder="Pin Code" name="pincode">
+                        </div>
+                        <div class="inputBox">
+                            <span>Date of Birth</span>
+                            <input type="date" placeholder="Date of Birth" name="dob">
+                        </div>
+                        <div class="inputBox">
+                            <span>Date of Last Donation</span>
+                            <input type="date" placeholder="Date of Last Donation" name="dold">
+                        </div>
+                    </div>
+    
+                    <input type="submit" value="submit" class="btn" name="send">
+    
+                </form>
+                </div>
         </div>
 
-        <!--packages section starts-->
-        <section class="packages">
-            <h1 class="heading-title">Top Destinations</h1>
-            <div class="box-container">
-                <div class="box">
-                    <div class="image">
-                        <img src="images/1" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Adventure and Tour</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                        <img src="images/2" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Adventure and Tour</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                        <img src="images/3" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Adventure and Tour</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                        <img src="images/4" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Adventure and Tour</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                        <img src="images/5" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Adventure and Tour</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                        <img src="images/6" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Adventure and Tour</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                        <img src="images/7" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Adventure and Tour</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                        <img src="images/8" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Adventure and Tour</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                        <img src="images/9" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Adventure and Tour</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                        <img src="images/10" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Adventure and Tour</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                        <img src="images/11" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Adventure and Tour</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="image">
-                        <img src="images/12" alt="">
-                    </div>
-                    <div class="content">
-                        <h3>Adventure and Tour</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <a href="book.php" class="btn">book now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="load-more"><span class="btn">load more</span></div>
-        </section>
-        <!--packages section ends-->
 
         <!--footer-->
         <section class="footer">
-            <div cllass="box-container">
+            <div class="upper-footer">
+                <a href="#" onclick="reload()" class="company-logo">
+                    <img src="/img/logo.png" class="logo" alt="Logo" width="70px">
+                </a>
+                <h2>Ready to get started?<a href="RegisterNow.html" class="intro-btn">Donate</a></h2>
+                
+            </div>
+            <div class="box-container">
             <div class="box">
                 <h3>quick links</h3>
                     <a href="home.html"><i class="fas fa-angle-right"></i>  Home</a>
