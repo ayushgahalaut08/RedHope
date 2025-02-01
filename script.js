@@ -15,54 +15,13 @@ window.onscroll=()=>{
     navbar.classList.remove('active');
 }
 
-var swiper = new Swiper(".home-slider",  {
-    loop:true,
-    navigation:{
-        nextE1: ".swiper-button-next",
-        nextE1: ".swiper-button-prev",
-    },
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 20,
+  centerSlides: true,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
 });
-
-var swiper =new Swiper(".reviews-slider",{
-    loop:true,
-    spaceBetween: 20,
-    autoHeight:true,
-    grabCursor:true,
-    breakpoints: {
-        640: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 2,
-        },
-        1024: {
-          slidesPerView: 3,
-        },
-      },
-});
-
-let loadMoreBtn= document.querySelector('.FindBlood .load-more .btn');
-let currentItem=3;
-
-loadMoreBtn.onclick =()=>{
-    let boxes=[...document.querySelectorAll('.FindBlood .box-container .box')];
-    for(var i=currentItem;i<currentItem+3;i++){
-        boxes[i].style.display='inline-block';
-    };
-    currentItem+=3;
-    if(currentItem>=boxes.length){
-        loadMoreBtn.style.display='none';
-    }
-}
-
-/*
-var collabswiper = new Swiper(".collaboratorsSwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    freeMode: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-*/
