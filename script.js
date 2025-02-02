@@ -18,10 +18,29 @@ window.onscroll=()=>{
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 20,
-  centerSlides: true,
+  centeredSlides: true,
   loop: true,
+  autoplay: {
+    delay: 1500, 
+    disableOnInteraction: false, 
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
+});
+
+
+document.querySelectorAll(".services .box").forEach((box) => {
+  const img = box.querySelector("img");
+  const darkSrc = box.getAttribute("data-dark");
+  const lightSrc = box.getAttribute("data-light");
+
+  box.addEventListener("mouseenter", () => {
+      img.src = lightSrc;
+  });
+
+  box.addEventListener("mouseleave", () => {
+      img.src = darkSrc;
+  });
 });
