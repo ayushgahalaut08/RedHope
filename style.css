@@ -195,11 +195,6 @@ section{
     background: var(--main-color);
 }
 
-
-
-
-
-
 .collaborators {
     background: var(--white);
     font-size: 20px;
@@ -278,6 +273,17 @@ section{
     height: 12px;
   }
  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -421,15 +427,6 @@ section{
     height: 7rem;
     transition: opacity 0.3s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
 
 .footer{
     background-color: #1E2833;
