@@ -143,9 +143,127 @@ section{
 
 
 
+.aboutus{
+    background: url(img/HomeBackground.png) no repeat;
+}
+
+.aboutus .aboutus-heading{
+    background-size:cover !important;
+    background-position: center !important;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus .aboutus-heading h1{
+    font-size: 10rem;
+    text-transform: uppercase;
+    color: var(--white);
+    text-shadow: var(--text-shadow);
+}
+
+
+
+
+
+
+
+
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.about .image{
+    flex: 1 1 41rem;
+}
+
+.about .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.about .content{
+    flex: 1 1 41rem;
+    text-align: center;
+}
+
+.about .content h3{
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.about .content .icons-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-end;
+}
+
+.about .content .icons-container .icons{
+    background: var(--light-bg);
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    flex: 1 1 16rem;
+}
+
+.about .content .icons-container .icons:hover{
+    background: var(--color10);
+}
+
+.about .content .icons-container .icons i{
+    font-size: 4rem;
+    margin-right: 10px;
+    margin-bottom: 2rem;
+    color: var(--main-color);
+}
+
+.about .content .icons-container .icons i:hover{
+    color: var(--white);
+}
+
+.about.content.icons-container .icons span{
+    font-size: 2.5rem;
+    color: var(--light-black);
+    display: block;
+}
+
+.about.content.icons-container .icons span:hover{
+    color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .reviews {
-    background: var(--light-bg);
     padding: 4rem 0;
 }
 
@@ -160,10 +278,10 @@ section{
 
 .reviews .swiper-slide {
     padding: 2rem;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.2);
     border: var(--border);
     background: var(--white);
     text-align: center;
-    box-shadow: var(--box-shadow);
     user-select: none;
     border-radius: 10px;
 }
@@ -201,6 +319,7 @@ section{
     border-radius: 50%;
     margin-top: 1rem;
 }
+
 
 
 

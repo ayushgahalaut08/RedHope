@@ -30,6 +30,14 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
+var swiper = new Swiper(".home-slider", {
+  loop: true,
+  navigation: {
+      nextEl: ".swiper-button-next",  
+      prevEl: ".swiper-button-prev", 
+  },
+});
+
 
 document.querySelectorAll(".services .box").forEach((box) => {
   const img = box.querySelector("img");
