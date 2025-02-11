@@ -278,21 +278,6 @@ section{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .home{
     padding: 0;
 }
@@ -356,7 +341,6 @@ section{
     background: var(--main-color);
     color: var(--white);
 }
-
 
 .home .swiper-button-next::after,
 .home .swiper-button-prev::after{
